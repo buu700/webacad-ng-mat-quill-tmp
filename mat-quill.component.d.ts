@@ -1,0 +1,34 @@
+import { ElementRef, SimpleChanges, OnChanges, DoCheck, OnDestroy } from '@angular/core';
+import { NgControl, NgForm, FormGroupDirective } from '@angular/forms';
+import { ErrorStateMatcher, CanUpdateErrorState } from '@angular/material/core';
+import { MatFormFieldControl } from '@angular/material/form-field';
+import { QuillComponent } from '@webacad/ng-quill';
+import { Subject } from 'rxjs';
+export declare class MatQuillComponent extends QuillComponent implements OnChanges, DoCheck, OnDestroy, MatFormFieldControl<string>, CanUpdateErrorState {
+    private _defaultErrorStateMatcher;
+    private _parentForm;
+    private _parentFormGroup;
+    readonly ngControl: NgControl;
+    placeholder: string;
+    required: boolean;
+    errorStateMatcher: ErrorStateMatcher;
+    errorState: boolean;
+    readonly stateChanges: Subject<void>;
+    readonly shouldLabelFloat: boolean;
+    private _disabled;
+    private _id;
+    private _uid;
+    constructor(el: ElementRef, _defaultErrorStateMatcher: ErrorStateMatcher, _parentForm: NgForm, _parentFormGroup: FormGroupDirective, ngControl: NgControl);
+    value: any;
+    disabled: boolean;
+    id: string;
+    readonly empty: boolean;
+    readonly focused: boolean;
+    ngOnChanges(changes: SimpleChanges): void;
+    ngDoCheck(): void;
+    ngOnDestroy(): void;
+    onContainerClick(event: MouseEvent): void;
+    focus(): void;
+    updateErrorState(): void;
+    setDescribedByIds(ids: Array<string>): void;
+}

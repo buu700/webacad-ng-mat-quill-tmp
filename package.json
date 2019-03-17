@@ -1,0 +1,90 @@
+{
+  "_args": [
+    [
+      "@webacad/ng-mat-quill@0.2.0",
+      "/Users/buu700/plusminus/AccelerationClient"
+    ]
+  ],
+  "_from": "@webacad/ng-mat-quill@0.2.0",
+  "_id": "@webacad/ng-mat-quill@0.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-+wXaJdHweEnnuNYUMLrRlJK/fM60CW97HGaYLDXnWp2f7AQ/G2XgN1EDzGgSTp+lwdiwE/LlhboCY80nXrxedg==",
+  "_location": "/@webacad/ng-mat-quill",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@webacad/ng-mat-quill@0.2.0",
+    "name": "@webacad/ng-mat-quill",
+    "escapedName": "@webacad%2fng-mat-quill",
+    "scope": "@webacad",
+    "rawSpec": "0.2.0",
+    "saveSpec": null,
+    "fetchSpec": "0.2.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@webacad/ng-mat-quill/-/ng-mat-quill-0.2.0.tgz",
+  "_spec": "0.2.0",
+  "_where": "/Users/buu700/plusminus/AccelerationClient",
+  "author": {
+    "name": "David Kudera",
+    "email": "kudera.d@gmail.com",
+    "url": "https://www.davidkudera.com"
+  },
+  "bugs": {
+    "url": "https://github.com/Web-ACAD/ng-mat-quill/issues"
+  },
+  "dependencies": {
+    "tslib": "^1.9.0"
+  },
+  "description": "Quill editor integration for angular material forms",
+  "devDependencies": {
+    "@angular/compiler": "^6.0",
+    "@angular/compiler-cli": "^6.0",
+    "@types/node": "^10.9.1",
+    "ng-packagr": "^4.1.0",
+    "npm-install-peers": "^1.2.1",
+    "reflect-metadata": "^0.1.12",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^2.9.0"
+  },
+  "es2015": "fesm2015/webacad-ng-mat-quill.js",
+  "esm2015": "esm2015/webacad-ng-mat-quill.js",
+  "esm5": "esm5/webacad-ng-mat-quill.js",
+  "fesm2015": "fesm2015/webacad-ng-mat-quill.js",
+  "fesm5": "fesm5/webacad-ng-mat-quill.js",
+  "homepage": "https://github.com/Web-ACAD/ng-mat-quill#readme",
+  "keywords": [
+    "angular",
+    "forms",
+    "material",
+    "quill"
+  ],
+  "license": "MIT",
+  "main": "bundles/webacad-ng-mat-quill.umd.js",
+  "metadata": "webacad-ng-mat-quill.metadata.json",
+  "module": "fesm5/webacad-ng-mat-quill.js",
+  "name": "@webacad/ng-mat-quill",
+  "peerDependencies": {
+    "@angular/animations": "^6.0",
+    "@angular/cdk": "^6.0",
+    "@angular/common": "^6.0",
+    "@angular/core": "^6.0",
+    "@angular/forms": "^6.0",
+    "@angular/material": "^6.0",
+    "@angular/platform-browser": "^6.0",
+    "@webacad/ng-quill": "^0.2.0",
+    "quill": "*",
+    "rxjs": "^6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Web-ACAD/ng-mat-quill.git"
+  },
+  "sideEffects": false,
+  "typings": "webacad-ng-mat-quill.d.ts",
+  "version": "0.2.0"
+}

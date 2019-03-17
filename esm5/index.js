@@ -1,0 +1,8 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+export { MatQuillComponent } from './mat-quill.component';
+export { MatQuillModule } from './mat-quill.module';
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290Ijoibmc6Ly9Ad2ViYWNhZC9uZy1tYXQtcXVpbGwvIiwic291cmNlcyI6WyJpbmRleC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7O0FBQUEsT0FBTyxFQUFDLGlCQUFpQixFQUFDLE1BQU0sdUJBQXVCLENBQUM7QUFDeEQsT0FBTyxFQUFDLGNBQWMsRUFBQyxNQUFNLG9CQUFvQixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IHtNYXRRdWlsbENvbXBvbmVudH0gZnJvbSAnLi9tYXQtcXVpbGwuY29tcG9uZW50JztcbmV4cG9ydCB7TWF0UXVpbGxNb2R1bGV9IGZyb20gJy4vbWF0LXF1aWxsLm1vZHVsZSc7XG4iXX0=
